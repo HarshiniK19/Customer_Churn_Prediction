@@ -1,20 +1,26 @@
-# 🏦 Bank Customer Churn Prediction
+Bank Customer Churn Prediction
+1. Project Objective
 
-## 📌 Project Overview
-This project predicts whether a bank customer will churn (leave the bank) using machine learning models.  
-Churn prediction helps banks reduce customer loss and improve retention strategies.
+Purpose:
+The goal of this project is to predict which bank customers are likely to churn in the next 3 months. This will enable the bank to take proactive steps to retain customers, improve customer satisfaction, and optimize marketing campaigns.
 
----
+Problem Statement:
 
-## 📂 Project Structure
-Bank_Churn_Project/
+“Predict which bank customers are likely to churn in the next 3 months using demographic and account-related data, to improve retention strategies and business decisions.”
+
+##  Project Structure
+Bank_Customer_Churn/
 │
-├── data/ # raw dataset
-├── notebooks/ # Jupyter/VS Code notebooks
-├── models/ # trained ML models
-├── plots/ # graphs/visualizations
-├── docs/ # documentation
-└── README.md # project report
+├── README.md                # Step 1 and ongoing insights
+├── data/                    # Store your dataset CSV
+│   └── Customer_Churn.csv
+├── notebooks/               # Jupyter notebooks for exploration & experiments
+│   └── 01_Data_Understanding.ipynb
+├── code/                    # Python scripts
+│   └── data_preprocessing.py
+├── plots/                   # Save plots/visualizations
+├── models/                  # Save trained ML models (.pkl)
+└── docs/                    # Any additional documentation
 
 
 ---
